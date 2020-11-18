@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+  }
+  body>div {
+	flex: 1;
+  }
+
+.header h1 {
+	color: hsl(240, 100%, 2%);
+	margin-bottom: 20px;
+}
+
+body {
+	min-height: 100vh;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	background: url(1591806332.jpg);
+	background-size: cover;
+	background-position: center;
+  }
+
+
+
+  .calculator{
+	display: flex;
+	color: rgba(0, 0, 0, 0.75);
+	padding: 25px;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: #fff;
+  }
+  .input-group{
+	margin: 10px 0;
+	
+  }
+  .input-group label {
+	color: rgba(0, 0, 0, 0.75);
+	display: block;
+	text-align: left;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+  }
+  
+input {
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+.calculator>div,
+.calculator>form {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.result {
+	align-self: center;
+  }
+
+  .result div {
+	padding: 15px 0;
+  }
+
+
+  .tip_per_person {
+	border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+  }
+  .result div p {
+	font-size: 18px;
+	text-transform: uppercase;
+  }
+  .result div .amount_tip,
+.result div .amount_total {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 5px 0;
+}
+.tip_per_person {
+	border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+  }
